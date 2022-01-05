@@ -86,27 +86,21 @@ XFA_ = {}
 GET_FORM_TEXT_FIELDS_DICTIONARY = {}
 
 #Putting the human readable dictionary into XFA_
-for i in HUMAN_EXTRACTION_XFA.items():
-    line_item_title = i[0]
-    line_item_values = i[1]
-    for values in line_item_values:
-        #print(line_item_title,values)  
-        XFA_[values] = line_item_title
+for key, value in HUMAN_EXTRACTION_XFA.items():
+    for v in value:
+        XFA_[v] = key
 
 #Putting the human readable dictionary into GET_FORM_TEXT_FIELDS_DICTIONARY
-for i in HUMAN_GET_FORM_TEXT_FIELDS_DICTIONARY.items():
-    line_item_title = i[0]
-    line_item_values = i[1]
-    for values in line_item_values:
-        #print(line_item_title,values)  
-        GET_FORM_TEXT_FIELDS_DICTIONARY[values] = line_item_title
+for key, value in HUMAN_GET_FORM_TEXT_FIELDS_DICTIONARY.items():
+    for v in value:
+        GET_FORM_TEXT_FIELDS_DICTIONARY[v] = key
 
 # Creates an object from inputting thefilepath 
 class FinancialYear:
     def __init__(self,pbid,year,file_path):
         self.__pbid = pbid
         self.__year = year
-        self.__filepath =  file_path
+        self.__filepath = file_path
     
     def set_pbid(self, pbid):
         self.__pbid = pbid
@@ -124,9 +118,9 @@ class FinancialYear:
         return self.__filepath
   
     @classmethod
-    def from_filepath(cls,file_path):
-        pbid = re.findall('[0-9][0-9][0-9]+\-[0-9][0-9]',file_path)[0]
-        year = re.findall('[0-9][0-9]\-[0-9][0-9]\-[0-9][0-9][0-9][0-9]',file_path)[0]
+    def from_filepath(cls,file_path: str):
+        pbid = re.findall(r'[0-9][0-9][0-9]+\-[0-9][0-9]',file_path)[0]
+        year = re.findall(r'[0-9][0-9]\-[0-9][0-9]\-[0-9][0-9][0-9][0-9]',file_path)[0]
         year = datetime.strptime(year, '%d-%m-%Y')
         return cls(pbid,year,file_path)
 
@@ -135,14 +129,16 @@ class PdfSetup:
     def __init__(self,pdf_reader):
         self.__pdf = pdf_reader 
 
-    # Some filings the xml data is not available. If the data is not avialable then we only want to use form method  
-    # Using the xml/beautifulsoup method is much more accurate and comprehensive   
-    #ADD TO THIS - IF pdf.getFormTextFields() = {} then form
+    """
+    For some filings the xml data is not available. If the data is not avialable then we only want to use form method  
+    Using the xml/beautifulsoup method is much more accurate and comprehensive   
+    """
+
     def pdf_type(xfa_data):
-        if xfa_data == None:
-            document_type = 'form'
-        else:
+        if xfa_data:
             document_type = 'both'
+        else:
+            document_type = 'form'
         return document_type  
     
     # Function returns the proper version of XML data. Data is only contained in 7 or 11, comparing amount of data in each response to return the best result
@@ -150,10 +146,9 @@ class PdfSetup:
         seven = xfa_base[7].getObject().getData()
         eleven =  xfa_base[11].getObject().getData()
         if len(seven) > len(eleven):
-            xml = seven
+            return seven
         else:
-            xml = eleven
-        return xml
+            return eleven
 
 # Class is used to extract financials either in xfa or .getFormTextFields style 
 # The format of data (xfa vs. .getFormTextFields) depends on how old the document is  
@@ -162,24 +157,19 @@ class DataExtration(FinancialYear):
     # Taking the beautifulsoup data and iterating through possible bs4 search names & adding non-null values into a dictionary   
     def extractxfa(self,soup):
         financial_year = {}
-        for financial_line_items in XFA_.items():
-            searchable_value = financial_line_items[0]
-            soup_values = soup.findAll(searchable_value)
-            for value in soup_values:
-                if value.text != '':
-                    column = financial_line_items[1] #updated
-                    financial_item =  value.text
-                    financial_year[column] = financial_item
-        return financial_year 
+        for key, value in XFA_.items():
+            for soup_value in soup.findAll(key):
+                if soup_value.text != '':
+                    financial_year[value] = soup_value.text
+        return financial_year
 
     # Some entities data is only able to be extracted through pypdf's .getFormTextFields 
     # the key is an item we are looking for/matches EX_GETTEXT dictionary and the value we receive is not == None
     def extractform(self,form_dictionary):
         financial_year = {}
-        for value in form_dictionary.items():
-            if value[0] in GET_FORM_TEXT_FIELDS_DICTIONARY.keys() and not re.search('None',str(value[1])):
-                line_item = GET_FORM_TEXT_FIELDS_DICTIONARY[value[0]]
-                financial_year[line_item] = value[1]
+        for key, value in form_dictionary.items():
+            if key in GET_FORM_TEXT_FIELDS_DICTIONARY.keys() and not re.search('None',str(value)):
+                financial_year[GET_FORM_TEXT_FIELDS_DICTIONARY[key]] = value
         return financial_year
 
 # Updates a variable data type   
@@ -194,7 +184,7 @@ class DataType:
     
     #Turn date into datetime
     def year(dictionary_year):
-        if re.search('-',dictionary_year):
+        if '-' in dictionary_year:
             #searching for the financial format YYYY-MM-DD since some pdf's include seconds 
             year = re.findall('[0-9]*\-[0-9][0-9]\-[0-9][0-9]',dictionary_year)[0]
             value = datetime.strptime(year, '%Y-%m-%d')
@@ -233,6 +223,7 @@ class DataTypeUpdate:
             return financials_year_xml
         elif len(financials_year_form) > len(financials_year_xml):
             return financials_year_form
+
 
 
 # Search through underlying data for /XFA items

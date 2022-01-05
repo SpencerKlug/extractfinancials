@@ -22,6 +22,7 @@ class Testing(unittest.TestCase):
     def test_pdf_type(self):
         form = 'C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/161456-32/Annual Returns and Balance Sheet eForms/Form 23AC-121007%12-10-2007.pdf'
         xml = 'C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 5/60912-37/Annual Returns and Balance Sheet eForms/Form AOC-4-051115%05-11-2015.pdf'
+        
         with open(form,'rb') as open_form:
             pdf = pypdf.PdfFileReader(open_form)
             xfa = ef.findInDict('/XFA',pdf.resolvedObjects)
@@ -31,8 +32,13 @@ class Testing(unittest.TestCase):
             pdf = pypdf.PdfFileReader(open_xml)
             xfa = ef.findInDict('/XFA',pdf.resolvedObjects)
             answer = ef.PdfSetup.pdf_type(xfa)
-            self.assertEqual(answer,'xml')
-
+            self.assertEqual(answer,'both')
+        with open(xml,'rb') as open_xml:
+            pdf = pypdf.PdfFileReader(open_xml)
+            xfa = ef.findInDict('/XFA',pdf.resolvedObjects)
+            answer = ef.PdfSetup.pdf_type(xfa)
+            self.assertEqual(answer,'both')
+        
     def test_data_type_update(self):
         pre_update_data = {'YEAR': '2015-03-31', 'REVENUE': '89247314.00000000',
                            'MATERIAL_COST': '0.00000000', 'AMORTIZATION_AND_DEPRECIATION': '3149055.00000000',

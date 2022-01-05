@@ -16,7 +16,7 @@ ten = 'C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/Ind
 six_eight = 'C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-121011 for the FY ending on-310310%13-10-2011.pdf'
 a = 'C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/222298-39/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-191213-181213 for the FY ending on-310313%18-12-2013.pdf'
 
-new_year = ef.DataExtration.from_filepath(aoc4)
+new_year = ef.DataExtration.from_filepath(six_eight)
 with open(new_year.get_filepath(),'rb') as open_pdf:
     pdf_file_reader_object=pypdf.PdfFileReader(open_pdf,strict=False)
     pdf_object = ef.PdfSetup(pdf_file_reader_object)
