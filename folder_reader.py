@@ -35,7 +35,8 @@ if __name__== "__main__":
             except Exception as e:
                 errors.append(e)
             final_filings.append(cfs_decision(cfs_pdf_files,non_cfs_pdf_files))
-    pd.DataFrame(final_filings).to_excel('files.xlsx', index=False)
+    print(final_filings)
+    #pd.DataFrame(final_filings).to_excel('files.xlsx', index=False)
 
 
 
