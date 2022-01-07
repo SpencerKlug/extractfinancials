@@ -56,18 +56,3 @@ if __name__== "__main__":
             pass
     pd.DataFrame(results).to_excel('t_Batch1.xlsx', index=False)
 
-
-    #main_df = df.iloc[2500:3000]
-    #updated_df = df.iloc[2500:3000]['FILEPATH']
-
-    # for filepath in updated_df:
-    #     try:
-    #         financials_data = main(filepath)
-    #         if len(financials_data) > 2:
-    #             main_df.loc[main_df['FILEPATH'] == filepath,'FINANCIALS_EXTRACTED'] = True
-    #             main_df.loc[main_df['FILEPATH'] == filepath,'PROCESSED_DATE'] = date.today()
-    #             for datavalues in financials_data.items():
-    #                 main_df.loc[main_df['FILEPATH'] == filepath, datavalues[0]] = datavalues[1]
-    #     except:
-    #         logging.debug(f"Exception occurred at {filepath}",exc_info=True)
-    # main_df.to_excel('t_Batch.xlsx')
