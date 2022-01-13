@@ -21,7 +21,7 @@ HUMAN_EXTRACTION_XFA = {
     'DEFERRED_TAX_LIABILITIES_NET':['deferred_tl_cr','frm:curdefrdtaxliabilities','frm:curdeftaxliab'],
     'OTHER_LONG_TERM_LIABILITIES':['other_lng_trm_cr','frm:curothrlngtrmborrow'],
     'LONG_TERM_PROVISIONS':['long_term_prov_c','frm:curlngtermprovisions'],
-    'SHORT_TERM_DEBT':['short_term_bor_c','frm:curshorttermborrow'],#'total_st_borr_cr',
+    'SHORT_TERM_DEBT':['short_term_bor_c','frm:curshorttermborrow'],
     'ACCOUNTS_PAYABLE':['trade_payables_c','frm:curtradepayables'],
     'OTHER_CURRENT_LIABILITIES':['other_curr_lia_c','frm:curothrcrntliabilities'],
     'SHORT_TERM_PROVISIONS':['short_term_pro_c','frm:curshorttermprovisions'],
@@ -63,7 +63,7 @@ HUMAN_GET_FORM_TEXT_FIELDS_DICTIONARY = {
     'LONG_TERM_PROVISIONS':['CurLngTermProvisions[0]','LongProv[0]'],
     'SHORT_TERM_DEBT':['ShortBorrow[0]','CurShortTermBorrow[0]'],
     'ACCOUNTS_PAYABLE':['CurTradePayables[0]','Trade[0]'],
-    'OTHER_CURRENT_LIABILITIES':['CurrentLiabl[0]','CurOthrCrntLiabilities[0]'], #could be wrong
+    'OTHER_CURRENT_LIABILITIES':['CurrentLiabl[0]','CurOthrCrntLiabilities[0]'], 
     'SHORT_TERM_PROVISIONS':['ShortProv[0]','CurShortTermProvisions[0]'],
     'TANGIBLE_ASSETS':['TangAsset[0]','CurTangibleAssets[0]'],
     'INTANGIBLE_ASSETS':['IntangAsset[0]','CurIntangibleAssets[0]'],
@@ -224,8 +224,6 @@ class DataTypeUpdate:
         elif len(financials_year_form) > len(financials_year_xml):
             return financials_year_form
 
-
-
 # Search through underlying data for /XFA items
 def findInDict(needle, haystack):
     for key in haystack.keys():
@@ -241,8 +239,7 @@ def findInDict(needle, haystack):
                 return x
 
 
-if __name__=="__main__":
-    pass
+
 
 
 
