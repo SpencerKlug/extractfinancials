@@ -8,6 +8,24 @@ import logging
 FORMAT = '%(asctime)s:%(levelname)s:%(lineno)d:%(message)s'
 logging.basicConfig(level=logging.DEBUG, filename='extract_financials.log',format=FORMAT)
 
+def csv_output(dataframe):
+    dataframe = dataframe[dataframe['FINANCIALS_EXTRACTED'] == True]
+    df = pd.read_excel('./EntityID.xlsx')
+    final_df = pd.merge(dataframe,df,left_on='PBID',right_on='PBID')
+    final_df = final_df.drop(columns=['PBID','FILEDATE','PROCESSED_DATE','FINANCIALS_EXTRACTED','FILEPATH','Unnamed: 0'])
+    final_df = final_df.rename(columns={'ENTITYID':'id'})
+    final_df['ann'] = True
+    final_df['qtr'] = False
+    final_df['ttm'] = False
+    final_df['fiscalQuarter'] = pd.PeriodIndex(final_df['periodEndDate'], freq='Q').quarter
+    final_df['fiscalYear'] = pd.PeriodIndex(final_df['periodEndDate'], freq='Q').year
+    final_df['currency'] = 32
+    final_df['preliminaryType'] = False
+    final_df['originalType'] = True
+    final_df['periodType'] = '1'
+    return final_df
+
+
 def main(filepath):
     new_year = ef.DataExtration.from_filepath(filepath)
     with open(new_year.get_filepath(),'rb') as open_pdf:
@@ -29,13 +47,15 @@ def main(filepath):
 
             financials_data = ef.DataTypeUpdate.results_update(financials_year_xml,financials_year_form)
             financials_data = ef.DataTypeUpdate.update_data(financials_data)
+            financials_data = ef.CalculatedFields.income_taxes(financials_data)
+            financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
 
         return financials_data
 
 
 if __name__== "__main__":
     df = pd.read_excel('12_10_files.xlsx')
-    list_of_rows = df.iloc[2500:3000].to_dict('records')
+    list_of_rows = df.iloc[2500:2700].to_dict('records')
     results = []
     today = date.today()
 
@@ -53,6 +73,8 @@ if __name__== "__main__":
             logging.debug(f"ERROR: {e}; filepath: {filepath}",exc_info=True)
             row['error'] = e
             results.append(row)
-            pass
-    pd.DataFrame(results).to_excel('t_Batch1.xlsx', index=False)
-
+            
+    pd.DataFrame(results).to_excel('t_Batch4.xlsx', index=False)
+    excel_output = pd.DataFrame(results)
+    csv_output_results = csv_output(excel_output)
+    csv_output_results.to_csv('results.csv')

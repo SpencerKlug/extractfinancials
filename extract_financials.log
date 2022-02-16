@@ -1,124 +1,1690 @@
-2022-01-05 15:06:22,638:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
-2022-01-05 15:06:22,714:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
-2022-01-05 15:06:22,737:DEBUG:65:CP949 Korean prober hit error at byte 25134
-2022-01-05 15:06:22,762:DEBUG:65:Big5 Chinese prober hit error at byte 25135
-2022-01-05 15:06:22,787:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
-2022-01-05 15:06:22,887:DEBUG:101:utf-8  confidence = 0.505
-2022-01-05 15:06:22,887:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
-2022-01-05 15:06:22,887:DEBUG:98:EUC-JP not active
-2022-01-05 15:06:22,887:DEBUG:101:GB2312 Chinese confidence = 0.01
-2022-01-05 15:06:22,887:DEBUG:98:EUC-KR not active
-2022-01-05 15:06:22,887:DEBUG:98:CP949 not active
-2022-01-05 15:06:22,887:DEBUG:98:Big5 not active
-2022-01-05 15:06:22,887:DEBUG:98:EUC-TW not active
-2022-01-05 15:06:22,887:DEBUG:101:windows-1251 Russian confidence = 0.01
-2022-01-05 15:06:22,888:DEBUG:101:KOI8-R Russian confidence = 0.01
-2022-01-05 15:06:22,888:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
-2022-01-05 15:06:22,888:DEBUG:101:MacCyrillic Russian confidence = 0.0
-2022-01-05 15:06:22,888:DEBUG:101:IBM866 Russian confidence = 0.0
-2022-01-05 15:06:22,888:DEBUG:101:IBM855 Russian confidence = 0.01
-2022-01-05 15:06:22,888:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
-2022-01-05 15:06:22,888:DEBUG:101:windows-1253 Greek confidence = 0.0
-2022-01-05 15:06:22,888:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
-2022-01-05 15:06:22,888:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
-2022-01-05 15:06:22,888:DEBUG:101:TIS-620 Thai confidence = 0.01
-2022-01-05 15:06:22,888:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
-2022-01-05 15:06:22,888:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:06:22,888:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:06:22,888:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:07:07,346:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
-2022-01-05 15:07:07,439:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
-2022-01-05 15:07:07,473:DEBUG:65:CP949 Korean prober hit error at byte 24706
-2022-01-05 15:07:07,497:DEBUG:65:Big5 Chinese prober hit error at byte 24707
-2022-01-05 15:07:07,524:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
-2022-01-05 15:07:07,661:DEBUG:101:utf-8  confidence = 0.87625
-2022-01-05 15:07:07,661:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
-2022-01-05 15:07:07,661:DEBUG:98:EUC-JP not active
-2022-01-05 15:07:07,661:DEBUG:101:GB2312 Chinese confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:98:EUC-KR not active
-2022-01-05 15:07:07,662:DEBUG:98:CP949 not active
-2022-01-05 15:07:07,662:DEBUG:98:Big5 not active
-2022-01-05 15:07:07,662:DEBUG:98:EUC-TW not active
-2022-01-05 15:07:07,662:DEBUG:101:windows-1251 Russian confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:101:KOI8-R Russian confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:101:MacCyrillic Russian confidence = 0.0
-2022-01-05 15:07:07,662:DEBUG:101:IBM866 Russian confidence = 0.0
-2022-01-05 15:07:07,662:DEBUG:101:IBM855 Russian confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
-2022-01-05 15:07:07,662:DEBUG:101:windows-1253 Greek confidence = 0.0
-2022-01-05 15:07:07,662:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:101:TIS-620 Thai confidence = 0.01
-2022-01-05 15:07:07,662:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
-2022-01-05 15:07:07,662:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:07:07,662:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:07:07,663:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:07:07,663:DEBUG:101:utf-8  confidence = 0.87625
-2022-01-05 15:07:07,663:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
-2022-01-05 15:07:07,663:DEBUG:98:EUC-JP not active
-2022-01-05 15:07:07,663:DEBUG:101:GB2312 Chinese confidence = 0.01
-2022-01-05 15:07:07,663:DEBUG:98:EUC-KR not active
-2022-01-05 15:07:07,663:DEBUG:98:CP949 not active
-2022-01-05 15:07:07,663:DEBUG:98:Big5 not active
-2022-01-05 15:07:07,663:DEBUG:98:EUC-TW not active
-2022-01-05 15:09:50,413:DEBUG:60:SHIFT_JIS Japanese prober hit error at byte 4282
-2022-01-05 15:09:50,422:DEBUG:61:EUC-JP Japanese prober hit error at byte 4280
-2022-01-05 15:09:50,428:DEBUG:65:GB2312 Chinese prober hit error at byte 4282
-2022-01-05 15:09:50,433:DEBUG:65:EUC-KR Korean prober hit error at byte 4280
-2022-01-05 15:09:50,438:DEBUG:65:CP949 Korean prober hit error at byte 4280
-2022-01-05 15:09:50,446:DEBUG:65:Big5 Chinese prober hit error at byte 4281
-2022-01-05 15:09:50,453:DEBUG:65:EUC-TW Taiwan prober hit error at byte 4280
-2022-01-05 15:09:50,622:DEBUG:101:utf-8  confidence = 0.505
-2022-01-05 15:09:50,622:DEBUG:98:SHIFT_JIS not active
-2022-01-05 15:09:50,622:DEBUG:98:EUC-JP not active
-2022-01-05 15:09:50,622:DEBUG:98:GB2312 not active
-2022-01-05 15:09:50,622:DEBUG:98:EUC-KR not active
-2022-01-05 15:09:50,622:DEBUG:98:CP949 not active
-2022-01-05 15:09:50,622:DEBUG:98:Big5 not active
-2022-01-05 15:09:50,622:DEBUG:98:EUC-TW not active
-2022-01-05 15:09:50,622:DEBUG:101:windows-1251 Russian confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:KOI8-R Russian confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:MacCyrillic Russian confidence = 0.0
-2022-01-05 15:09:50,623:DEBUG:101:IBM866 Russian confidence = 0.0
-2022-01-05 15:09:50,623:DEBUG:101:IBM855 Russian confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:ISO-8859-7 Greek confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:windows-1253 Greek confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:TIS-620 Thai confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11927229687456918
-2022-01-05 15:09:50,623:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:09:50,623:DEBUG:101:windows-1255 Hebrew confidence = 0.01
-2022-01-05 15:09:50,623:DEBUG:101:windows-1255 Hebrew confidence = 0.01
-2022-01-05 15:09:52,802:DEBUG:60:SHIFT_JIS Japanese prober hit error at byte 28318
-2022-01-05 15:09:52,874:DEBUG:61:EUC-JP Japanese prober hit error at byte 28316
-2022-01-05 15:09:52,910:DEBUG:65:GB2312 Chinese prober hit error at byte 28318
-2022-01-05 15:09:52,952:DEBUG:65:EUC-KR Korean prober hit error at byte 28316
-2022-01-05 15:09:53,008:DEBUG:65:CP949 Korean prober hit error at byte 28316
-2022-01-05 15:09:53,062:DEBUG:65:Big5 Chinese prober hit error at byte 28317
-2022-01-05 15:09:53,108:DEBUG:65:EUC-TW Taiwan prober hit error at byte 28316
-2022-01-05 15:09:53,331:DEBUG:101:utf-8  confidence = 0.505
-2022-01-05 15:09:53,331:DEBUG:98:SHIFT_JIS not active
-2022-01-05 15:09:53,331:DEBUG:98:EUC-JP not active
-2022-01-05 15:09:53,331:DEBUG:98:GB2312 not active
-2022-01-05 15:09:53,331:DEBUG:98:EUC-KR not active
-2022-01-05 15:09:53,331:DEBUG:98:CP949 not active
-2022-01-05 15:09:53,331:DEBUG:98:Big5 not active
-2022-01-05 15:09:53,332:DEBUG:98:EUC-TW not active
-2022-01-05 15:09:53,332:DEBUG:101:windows-1251 Russian confidence = 0.01
-2022-01-05 15:09:53,332:DEBUG:101:KOI8-R Russian confidence = 0.01
-2022-01-05 15:09:53,332:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
-2022-01-05 15:09:53,332:DEBUG:101:MacCyrillic Russian confidence = 0.0
-2022-01-05 15:09:53,332:DEBUG:101:IBM866 Russian confidence = 0.0
-2022-01-05 15:09:53,332:DEBUG:101:IBM855 Russian confidence = 0.01
-2022-01-05 15:09:53,332:DEBUG:101:ISO-8859-7 Greek confidence = 0.01
-2022-01-05 15:09:53,332:DEBUG:101:windows-1253 Greek confidence = 0.01
-2022-01-05 15:09:53,332:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
-2022-01-05 15:09:53,333:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
-2022-01-05 15:09:53,333:DEBUG:101:TIS-620 Thai confidence = 0.01
-2022-01-05 15:09:53,333:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11973823126206667
-2022-01-05 15:09:53,333:DEBUG:101:windows-1255 Hebrew confidence = 0.0
-2022-01-05 15:09:53,333:DEBUG:101:windows-1255 Hebrew confidence = 0.01
-2022-01-05 15:09:53,333:DEBUG:101:windows-1255 Hebrew confidence = 0.01
+2022-02-09 14:20:40,007:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-121213-031213 for the FY ending on-310313%11-12-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:40,047:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-150113-140113 for the FY ending on-310312%14-01-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:40,088:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-231111-221111 for the FY ending on-310311%22-11-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:40,374:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-06112020_signed%06-11-2020.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:40,540:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-20112019_signed%20-11-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:40,704:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-25042018_signed%25-04-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:41,847:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-26102018_signed%26-10-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:42,135:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-30112016-signed%30-11-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:42,253:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form23AC-081010 for the FY ending on-310310%10-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:42,523:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Form23AC-101009 for the FY ending on-310309%13-10-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:42,598:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Frm23ACA-081010 for the FY ending on-310310%10-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:42,739:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Frm23ACA-101009 for the FY ending on-310309%13-10-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:20:42,820:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Signed_Form_AOC-4_HML_HEROMOTORS_20160502155011%02-05-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:44,787:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-170113-150113 for the FY ending on-310312%16-01-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:44,833:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-191013-101013 for the FY ending on-310313%18-10-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:44,909:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-221211-211211 for the FY ending on-310311%21-12-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:44,956:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-311014-301014 for the FY ending on-310314%31-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:45,548:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23AC-241108%23-11-2008.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:45,587:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-170113-150113 for the FY ending on-310312%16-01-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:45,628:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-191013-101013 for the FY ending on-310313%18-10-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:45,691:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-221211-211211 for the FY ending on-310311%21-12-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:45,734:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-311014-301014 for the FY ending on-310314%31-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:46,040:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form AOC-4 XBRL-281115%28-11-2015.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:47,240:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-21102019_signed%21-10-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:49,673:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-22092020_signed%22-09-2020.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:51,625:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-24102017_signed%24-10-2017.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:53,390:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-25102018_signed%25-10-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:54,876:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-31052021_signed%31-05-2021.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:55,295:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form23AC-061009 for the FY ending on-310309%09-10-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:55,876:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form23AC-141010 for the FY ending on-310310%14-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:55,935:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Form_AOC4-XBRL_AEL_2015-16_signed_SDEO1985_20161128230513%28-11-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:20:56,126:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Frm23ACA-061009 for the FY ending on-310309%09-10-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:20:56,372:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Frm23ACA-141010 for the FY ending on-310310%14-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:01,833:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183695-05/Annual Returns and Balance Sheet eForms/Form23AC-090315 for the FY ending on-310314-Revised-1%09-03-2015.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:01,935:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183695-05/Annual Returns and Balance Sheet eForms/Form23AC-091113 for the FY ending on-310313%11-11-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:02,036:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183695-05/Annual Returns and Balance Sheet eForms/Form23AC-191112 for the FY ending on-310312%20-11-2012.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:02,572:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-16102018_signed%16-10-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:02,715:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-29082019_signed%29-08-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:03,116:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-31082020_signed%31-08-2020.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:07,617:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form AOC-4XBRL-16102018_signed%16-10-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:07,731:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form23AC-040914 for the FY ending on-310314%04-09-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:07,982:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form23AC-080910 for the FY ending on-310310%08-09-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:08,058:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form23AC-101011 for the FY ending on-310311%10-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:08,408:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form23AC-300709 for the FY ending on-310309%31-07-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:08,505:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form23AC-301012 for the FY ending on-310312%30-10-2012.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:08,597:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Form23AC-301013 for the FY ending on-310313%13-11-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:08,925:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Frm23ACA-080910 for the FY ending on-310310%08-09-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:08,981:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Frm23ACA-101011 for the FY ending on-310311%10-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:09,141:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Frm23ACA-300709 for the FY ending on-310309%31-07-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:09,676:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183814-66/Annual Returns and Balance Sheet eForms/Form AOC - 4 CFS-03122016_signed%03-12-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:10,186:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183814-66/Annual Returns and Balance Sheet eForms/Form AOC - 4 CFS-25102017_signed%25-10-2017.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:11,380:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183814-66/Annual Returns and Balance Sheet eForms/Form AOC - 4 CFS-26122018-signed%26-12-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:11,549:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183814-66/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-03042021_signed%03-04-2021.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:12,866:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183814-66/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-04122019_signed%04-12-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:13,940:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
+2022-02-09 14:21:14,089:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
+2022-02-09 14:21:14,123:DEBUG:65:CP949 Korean prober hit error at byte 25134
+2022-02-09 14:21:14,155:DEBUG:65:Big5 Chinese prober hit error at byte 25135
+2022-02-09 14:21:14,188:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
+2022-02-09 14:21:14,327:DEBUG:101:utf-8  confidence = 0.505
+2022-02-09 14:21:14,328:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:98:EUC-JP not active
+2022-02-09 14:21:14,328:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:98:EUC-KR not active
+2022-02-09 14:21:14,328:DEBUG:98:CP949 not active
+2022-02-09 14:21:14,328:DEBUG:98:Big5 not active
+2022-02-09 14:21:14,328:DEBUG:98:EUC-TW not active
+2022-02-09 14:21:14,328:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-09 14:21:14,328:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-09 14:21:14,328:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-09 14:21:14,328:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-09 14:21:14,328:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-09 14:21:14,328:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
+2022-02-09 14:21:14,328:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:21:14,328:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:21:14,329:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:21:15,559:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183937-69/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-14072021_signed%14-07-2021.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:15,739:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183937-69/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-15022019_signed%15-02-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:15,933:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183937-69/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-31122019_signed%31-12-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:19,302:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183937-69/Annual Returns and Balance Sheet eForms/Form23AC-030415 for the FY ending on-310314-Revised-2%09-04-2015.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:19,454:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183937-69/Annual Returns and Balance Sheet eForms/Form23AC-081114 for the FY ending on-310312%14-11-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:19,573:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183937-69/Annual Returns and Balance Sheet eForms/Form23AC-081114 for the FY ending on-310313%16-11-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:22,711:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-081114-061114 for the FY ending on-310314%07-11-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:22,791:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-301113-291113 for the FY ending on-310313%29-11-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:22,859:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form AOC-4 XBRL-111215%10-12-2015.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:23,083:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-06012021_signed%06-01-2021.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:24,890:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-23102017_signed%23-10-2017.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:25,582:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-27112019_signed%27-11-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:25,794:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-28012019_signed%28-01-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:26,284:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form23AC-211011 for the FY ending on-310311%22-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:26,382:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form23AC-211112 for the FY ending on-310312%23-11-2012.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:26,740:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184229-56/Annual Returns and Balance Sheet eForms/Form_AOC4-XBRL_NEER8333_20161110130711%10-11-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:29,460:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-26122020_signed%26-12-2020.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:29,627:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-29102019_signed%29-10-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:29,789:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-29122018_signed%29-12-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:31,175:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form23AC-030415 for the FY ending on-310314%04-04-2015.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:31,495:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form23AC-071011 for the FY ending on-310308%09-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:31,801:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form23AC-071011 for the FY ending on-310309%09-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:32,025:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form23AC-121011 for the FY ending on-310310%13-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:32,471:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form23AC-151014 for the FY ending on-310312%16-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:32,726:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form23AC-191011 for the FY ending on-310311%19-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:33,134:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Form23AC-211014 for the FY ending on-310313%21-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:33,339:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-071011 for the FY ending on-310308%09-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:33,491:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-071011 for the FY ending on-310309%09-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:33,778:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-121011 for the FY ending on-310310%13-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:34,289:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-191011 for the FY ending on-310311%19-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:34,881:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-05102018_signed%05-10-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,039:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-07092019_signed%07-09-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,110:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-08122016-signed%08-12-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,270:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-22092020_signed%22-09-2020.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,418:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-29032018_signed%29-03-2018.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,585:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form23AC-011010 for the FY ending on-310310%07-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,673:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form23AC-161112 for the FY ending on-310312%17-11-2012.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,769:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form23AC-181013 for the FY ending on-310313%20-10-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:35,995:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form23AC-181209 for the FY ending on-310309%22-12-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:36,078:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form23AC-251014 for the FY ending on-310314%25-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:36,161:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184622-23/Annual Returns and Balance Sheet eForms/Form23AC-260811 for the FY ending on-310311%27-08-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:36,303:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184837-33/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-01012019_signed%01-01-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:36,449:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184837-33/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-06112017_signed%06-11-2017.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:36,583:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184837-33/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-10022021_signed%10-02-2021.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:36,715:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184837-33/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-26112019_signed%26-11-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:38,197:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184837-33/Annual Returns and Balance Sheet eForms/Form23AC-251214 for the FY ending on-310314%27-12-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:39,967:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184837-33/Annual Returns and Balance Sheet eForms/Form_AOC4-XBRL_-_Signed_MANISHCS14_20161130174335%30-11-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,014:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-020113-010113 for the FY ending on-310312%01-01-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,069:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-171014-151014 for the FY ending on-310314%16-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,119:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-231013-191013 for the FY ending on-310313%23-10-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,161:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23AC XBRL-301111-291111 for the FY ending on-310311%30-11-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,756:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23AC-201208-Revised-1%19-12-2008.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,910:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-020113-010113 for the FY ending on-310312%01-01-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,952:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-171014-151014 for the FY ending on-310314%16-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:40,994:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-231013-191013 for the FY ending on-310313%23-10-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:41,038:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form 23ACA XBRL-301111-291111 for the FY ending on-310311%30-11-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:41,381:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form AOC-4 XBRL-051115%05-11-2015.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:41,432:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form AOC-4 XBRL-100216%10-02-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:41,499:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-05022021%05-02-2021.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:42,579:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-14012019_signed%14-01-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:42,660:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-19012021%19-01-2021.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:43,656:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-25102017_signed%25-10-2017.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:43,834:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form AOC-4(XBRL)-30112019_signed%30-11-2019.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:43,904:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form23AC-041010 for the FY ending on-310310%08-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:44,260:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form23AC-231009 for the FY ending on-310309%01-11-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:44,320:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Form_AOC4-XBRL_26.10.2016_KSSALINI234_20161026095558%26-10-2016.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:44,378:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Frm23ACA-041010 for the FY ending on-310310%08-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:44,517:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Frm23ACA-231009 for the FY ending on-310309%01-11-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:21:50,172:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
+2022-02-09 14:21:50,274:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
+2022-02-09 14:21:50,301:DEBUG:65:CP949 Korean prober hit error at byte 24706
+2022-02-09 14:21:50,328:DEBUG:65:Big5 Chinese prober hit error at byte 24707
+2022-02-09 14:21:50,353:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
+2022-02-09 14:21:50,465:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-09 14:21:50,466:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 14:21:50,466:DEBUG:98:EUC-JP not active
+2022-02-09 14:21:50,466:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 14:21:50,466:DEBUG:98:EUC-KR not active
+2022-02-09 14:21:50,466:DEBUG:98:CP949 not active
+2022-02-09 14:21:50,466:DEBUG:98:Big5 not active
+2022-02-09 14:21:50,467:DEBUG:98:EUC-TW not active
+2022-02-09 14:21:50,467:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-09 14:21:50,467:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-09 14:21:50,467:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-09 14:21:50,467:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-09 14:21:50,467:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-09 14:21:50,468:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-09 14:21:50,468:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-09 14:21:50,468:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-09 14:21:50,468:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-09 14:21:50,468:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-09 14:21:50,468:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-09 14:21:50,469:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
+2022-02-09 14:21:50,469:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:21:50,469:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:21:50,469:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:21:50,469:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-09 14:21:50,469:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 14:21:50,470:DEBUG:98:EUC-JP not active
+2022-02-09 14:21:50,470:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 14:21:50,470:DEBUG:98:EUC-KR not active
+2022-02-09 14:21:50,470:DEBUG:98:CP949 not active
+2022-02-09 14:21:50,470:DEBUG:98:Big5 not active
+2022-02-09 14:21:50,470:DEBUG:98:EUC-TW not active
+2022-02-09 14:21:50,820:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185601-43/Annual Returns and Balance Sheet eForms/Form23AC-031009 for the FY ending on-310309%08-10-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:51,147:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185601-43/Annual Returns and Balance Sheet eForms/Form23AC-051112 for the FY ending on-310312%06-11-2012.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:51,505:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185601-43/Annual Returns and Balance Sheet eForms/Form23AC-111010 for the FY ending on-310310%15-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:51,595:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185601-43/Annual Returns and Balance Sheet eForms/Form23AC-151014 for the FY ending on-310314%18-10-2014.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:51,971:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185601-43/Annual Returns and Balance Sheet eForms/Form23AC-171011 for the FY ending on-310311%18-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:21:52,049:DEBUG:55:ERROR: 'NoneType' object has no attribute 'keys'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185601-43/Annual Returns and Balance Sheet eForms/Form23AC-190713 for the FY ending on-310313%20-07-2013.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 33, in main
+    financials_data = ef.CalculatedFields.profit_after_tax(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 184, in profit_after_tax
+    if ('netIncome') in financial_dictionary.keys():
+AttributeError: 'NoneType' object has no attribute 'keys'
+2022-02-09 14:26:07,700:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183208-60/Annual Returns and Balance Sheet eForms/Frm23ACA-101009 for the FY ending on-310309%13-10-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:26:28,144:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Frm23ACA-061009 for the FY ending on-310309%09-10-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:26:28,537:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183460-78/Annual Returns and Balance Sheet eForms/Frm23ACA-141010 for the FY ending on-310310%14-10-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:26:49,612:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Frm23ACA-080910 for the FY ending on-310310%08-09-2010.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:26:49,918:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/183709-63/Annual Returns and Balance Sheet eForms/Frm23ACA-300709 for the FY ending on-310309%31-07-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:26:57,714:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
+2022-02-09 14:26:57,889:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
+2022-02-09 14:26:57,953:DEBUG:65:CP949 Korean prober hit error at byte 25134
+2022-02-09 14:26:58,014:DEBUG:65:Big5 Chinese prober hit error at byte 25135
+2022-02-09 14:26:58,075:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
+2022-02-09 14:26:58,317:DEBUG:101:utf-8  confidence = 0.505
+2022-02-09 14:26:58,317:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:98:EUC-JP not active
+2022-02-09 14:26:58,317:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:98:EUC-KR not active
+2022-02-09 14:26:58,317:DEBUG:98:CP949 not active
+2022-02-09 14:26:58,317:DEBUG:98:Big5 not active
+2022-02-09 14:26:58,317:DEBUG:98:EUC-TW not active
+2022-02-09 14:26:58,317:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-09 14:26:58,317:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-09 14:26:58,317:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-09 14:26:58,317:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-09 14:26:58,317:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-09 14:26:58,317:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-09 14:26:58,318:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
+2022-02-09 14:26:58,318:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:26:58,318:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:26:58,318:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:27:25,261:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-071011 for the FY ending on-310308%09-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:27:25,572:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-071011 for the FY ending on-310309%09-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:27:25,771:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-121011 for the FY ending on-310310%13-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:27:26,624:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/184620-16/Annual Returns and Balance Sheet eForms/Frm23ACA-191011 for the FY ending on-310311%19-10-2011.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:27:43,420:DEBUG:55:ERROR: 'netIncome'; filepath: C:/Users/spencer.klug/MORNINGSTAR INC/Fight Club - Valuations Filings/India/Filings/$ To Process/Financial Forms/Batch 1/185127-22/Annual Returns and Balance Sheet eForms/Frm23ACA-231009 for the FY ending on-310309%01-11-2009.pdf
+Traceback (most recent call last):
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 47, in <module>
+    financials_data = main(row['FILEPATH'])
+  File "c:/Users/spencer.klug/OneDrive - MORNINGSTAR INC/India_PF_Expansion/financials_production.py", line 32, in main
+    financials_data = ef.CalculatedFields.income_taxes(financials_data)
+  File "c:\Users\spencer.klug\OneDrive - MORNINGSTAR INC\India_PF_Expansion\extract_financials.py", line 180, in income_taxes
+    financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+KeyError: 'netIncome'
+2022-02-09 14:27:51,714:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
+2022-02-09 14:27:51,905:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
+2022-02-09 14:27:51,959:DEBUG:65:CP949 Korean prober hit error at byte 24706
+2022-02-09 14:27:52,013:DEBUG:65:Big5 Chinese prober hit error at byte 24707
+2022-02-09 14:27:52,073:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
+2022-02-09 14:27:52,236:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-09 14:27:52,237:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 14:27:52,237:DEBUG:98:EUC-JP not active
+2022-02-09 14:27:52,237:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 14:27:52,237:DEBUG:98:EUC-KR not active
+2022-02-09 14:27:52,237:DEBUG:98:CP949 not active
+2022-02-09 14:27:52,237:DEBUG:98:Big5 not active
+2022-02-09 14:27:52,237:DEBUG:98:EUC-TW not active
+2022-02-09 14:27:52,237:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-09 14:27:52,237:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-09 14:27:52,237:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-09 14:27:52,237:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-09 14:27:52,238:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-09 14:27:52,238:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-09 14:27:52,238:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-09 14:27:52,238:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-09 14:27:52,238:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-09 14:27:52,238:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-09 14:27:52,238:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-09 14:27:52,238:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
+2022-02-09 14:27:52,238:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:27:52,238:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:27:52,238:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 14:27:52,239:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-09 14:27:52,239:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 14:27:52,239:DEBUG:98:EUC-JP not active
+2022-02-09 14:27:52,239:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 14:27:52,239:DEBUG:98:EUC-KR not active
+2022-02-09 14:27:52,239:DEBUG:98:CP949 not active
+2022-02-09 14:27:52,239:DEBUG:98:Big5 not active
+2022-02-09 14:27:52,239:DEBUG:98:EUC-TW not active
+2022-02-09 15:23:02,052:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
+2022-02-09 15:23:02,165:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
+2022-02-09 15:23:02,198:DEBUG:65:CP949 Korean prober hit error at byte 25134
+2022-02-09 15:23:02,230:DEBUG:65:Big5 Chinese prober hit error at byte 25135
+2022-02-09 15:23:02,261:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
+2022-02-09 15:23:02,385:DEBUG:101:utf-8  confidence = 0.505
+2022-02-09 15:23:02,385:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 15:23:02,385:DEBUG:98:EUC-JP not active
+2022-02-09 15:23:02,385:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 15:23:02,386:DEBUG:98:EUC-KR not active
+2022-02-09 15:23:02,386:DEBUG:98:CP949 not active
+2022-02-09 15:23:02,386:DEBUG:98:Big5 not active
+2022-02-09 15:23:02,386:DEBUG:98:EUC-TW not active
+2022-02-09 15:23:02,386:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-09 15:23:02,387:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-09 15:23:02,387:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-09 15:23:02,387:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-09 15:23:02,387:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-09 15:23:02,387:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-09 15:23:02,387:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-09 15:23:02,387:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-09 15:23:02,387:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-09 15:23:02,387:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-09 15:23:02,387:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-09 15:23:02,387:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
+2022-02-09 15:23:02,387:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 15:23:02,387:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 15:23:02,387:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 15:23:33,450:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
+2022-02-09 15:23:33,547:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
+2022-02-09 15:23:33,571:DEBUG:65:CP949 Korean prober hit error at byte 24706
+2022-02-09 15:23:33,596:DEBUG:65:Big5 Chinese prober hit error at byte 24707
+2022-02-09 15:23:33,620:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
+2022-02-09 15:23:33,735:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-09 15:23:33,735:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:98:EUC-JP not active
+2022-02-09 15:23:33,735:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:98:EUC-KR not active
+2022-02-09 15:23:33,735:DEBUG:98:CP949 not active
+2022-02-09 15:23:33,735:DEBUG:98:Big5 not active
+2022-02-09 15:23:33,735:DEBUG:98:EUC-TW not active
+2022-02-09 15:23:33,735:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-09 15:23:33,735:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-09 15:23:33,735:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-09 15:23:33,735:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-09 15:23:33,735:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-09 15:23:33,735:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-09 15:23:33,736:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
+2022-02-09 15:23:33,736:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 15:23:33,736:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 15:23:33,736:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-09 15:23:33,736:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-09 15:23:33,736:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-09 15:23:33,736:DEBUG:98:EUC-JP not active
+2022-02-09 15:23:33,736:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-09 15:23:33,736:DEBUG:98:EUC-KR not active
+2022-02-09 15:23:33,736:DEBUG:98:CP949 not active
+2022-02-09 15:23:33,736:DEBUG:98:Big5 not active
+2022-02-09 15:23:33,736:DEBUG:98:EUC-TW not active
+2022-02-10 14:09:56,877:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
+2022-02-10 14:09:56,971:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
+2022-02-10 14:09:57,000:DEBUG:65:CP949 Korean prober hit error at byte 25134
+2022-02-10 14:09:57,026:DEBUG:65:Big5 Chinese prober hit error at byte 25135
+2022-02-10 14:09:57,053:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
+2022-02-10 14:09:57,172:DEBUG:101:utf-8  confidence = 0.505
+2022-02-10 14:09:57,173:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:09:57,173:DEBUG:98:EUC-JP not active
+2022-02-10 14:09:57,173:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:09:57,173:DEBUG:98:EUC-KR not active
+2022-02-10 14:09:57,174:DEBUG:98:CP949 not active
+2022-02-10 14:09:57,174:DEBUG:98:Big5 not active
+2022-02-10 14:09:57,174:DEBUG:98:EUC-TW not active
+2022-02-10 14:09:57,174:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 14:09:57,174:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 14:09:57,174:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 14:09:57,174:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 14:09:57,174:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 14:09:57,174:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 14:09:57,174:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 14:09:57,174:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 14:09:57,174:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 14:09:57,174:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 14:09:57,174:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 14:09:57,174:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
+2022-02-10 14:09:57,175:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:09:57,175:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:09:57,175:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:10:52,081:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
+2022-02-10 14:10:52,259:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
+2022-02-10 14:10:52,308:DEBUG:65:CP949 Korean prober hit error at byte 24706
+2022-02-10 14:10:52,364:DEBUG:65:Big5 Chinese prober hit error at byte 24707
+2022-02-10 14:10:52,416:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
+2022-02-10 14:10:52,634:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 14:10:52,635:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:98:EUC-JP not active
+2022-02-10 14:10:52,635:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:98:EUC-KR not active
+2022-02-10 14:10:52,635:DEBUG:98:CP949 not active
+2022-02-10 14:10:52,635:DEBUG:98:Big5 not active
+2022-02-10 14:10:52,635:DEBUG:98:EUC-TW not active
+2022-02-10 14:10:52,635:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 14:10:52,635:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 14:10:52,635:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 14:10:52,635:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 14:10:52,635:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 14:10:52,635:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
+2022-02-10 14:10:52,635:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:10:52,636:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:10:52,637:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:10:52,637:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 14:10:52,637:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:10:52,637:DEBUG:98:EUC-JP not active
+2022-02-10 14:10:52,637:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:10:52,637:DEBUG:98:EUC-KR not active
+2022-02-10 14:10:52,637:DEBUG:98:CP949 not active
+2022-02-10 14:10:52,637:DEBUG:98:Big5 not active
+2022-02-10 14:10:52,637:DEBUG:98:EUC-TW not active
+2022-02-10 14:15:01,491:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
+2022-02-10 14:15:01,592:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
+2022-02-10 14:15:01,621:DEBUG:65:CP949 Korean prober hit error at byte 25134
+2022-02-10 14:15:01,650:DEBUG:65:Big5 Chinese prober hit error at byte 25135
+2022-02-10 14:15:01,679:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
+2022-02-10 14:15:01,810:DEBUG:101:utf-8  confidence = 0.505
+2022-02-10 14:15:01,811:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:15:01,811:DEBUG:98:EUC-JP not active
+2022-02-10 14:15:01,811:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:15:01,811:DEBUG:98:EUC-KR not active
+2022-02-10 14:15:01,811:DEBUG:98:CP949 not active
+2022-02-10 14:15:01,811:DEBUG:98:Big5 not active
+2022-02-10 14:15:01,811:DEBUG:98:EUC-TW not active
+2022-02-10 14:15:01,812:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 14:15:01,812:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 14:15:01,812:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 14:15:01,812:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 14:15:01,812:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 14:15:01,812:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 14:15:01,812:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 14:15:01,812:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 14:15:01,812:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 14:15:01,812:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 14:15:01,812:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 14:15:01,812:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
+2022-02-10 14:15:01,812:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:15:01,812:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:15:01,812:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:15:41,682:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
+2022-02-10 14:15:41,796:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
+2022-02-10 14:15:41,857:DEBUG:65:CP949 Korean prober hit error at byte 24706
+2022-02-10 14:15:41,923:DEBUG:65:Big5 Chinese prober hit error at byte 24707
+2022-02-10 14:15:41,959:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
+2022-02-10 14:15:42,120:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 14:15:42,120:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:15:42,120:DEBUG:98:EUC-JP not active
+2022-02-10 14:15:42,120:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:15:42,120:DEBUG:98:EUC-KR not active
+2022-02-10 14:15:42,121:DEBUG:98:CP949 not active
+2022-02-10 14:15:42,121:DEBUG:98:Big5 not active
+2022-02-10 14:15:42,121:DEBUG:98:EUC-TW not active
+2022-02-10 14:15:42,121:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 14:15:42,121:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 14:15:42,121:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 14:15:42,121:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 14:15:42,121:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
+2022-02-10 14:15:42,121:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:15:42,121:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:15:42,121:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:15:42,121:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 14:15:42,121:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:15:42,121:DEBUG:98:EUC-JP not active
+2022-02-10 14:15:42,121:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:15:42,122:DEBUG:98:EUC-KR not active
+2022-02-10 14:15:42,122:DEBUG:98:CP949 not active
+2022-02-10 14:15:42,122:DEBUG:98:Big5 not active
+2022-02-10 14:15:42,122:DEBUG:98:EUC-TW not active
+2022-02-10 14:17:23,459:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
+2022-02-10 14:17:23,554:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
+2022-02-10 14:17:23,582:DEBUG:65:CP949 Korean prober hit error at byte 25134
+2022-02-10 14:17:23,610:DEBUG:65:Big5 Chinese prober hit error at byte 25135
+2022-02-10 14:17:23,637:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
+2022-02-10 14:17:23,753:DEBUG:101:utf-8  confidence = 0.505
+2022-02-10 14:17:23,753:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:98:EUC-JP not active
+2022-02-10 14:17:23,754:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:98:EUC-KR not active
+2022-02-10 14:17:23,754:DEBUG:98:CP949 not active
+2022-02-10 14:17:23,754:DEBUG:98:Big5 not active
+2022-02-10 14:17:23,754:DEBUG:98:EUC-TW not active
+2022-02-10 14:17:23,754:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 14:17:23,754:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 14:17:23,754:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 14:17:23,754:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 14:17:23,754:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 14:17:23,754:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
+2022-02-10 14:17:23,754:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:17:23,754:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:17:23,754:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:17:49,983:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
+2022-02-10 14:17:50,063:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
+2022-02-10 14:17:50,091:DEBUG:65:CP949 Korean prober hit error at byte 24706
+2022-02-10 14:17:50,113:DEBUG:65:Big5 Chinese prober hit error at byte 24707
+2022-02-10 14:17:50,135:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
+2022-02-10 14:17:50,233:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 14:17:50,233:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:17:50,233:DEBUG:98:EUC-JP not active
+2022-02-10 14:17:50,233:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:17:50,233:DEBUG:98:EUC-KR not active
+2022-02-10 14:17:50,233:DEBUG:98:CP949 not active
+2022-02-10 14:17:50,233:DEBUG:98:Big5 not active
+2022-02-10 14:17:50,233:DEBUG:98:EUC-TW not active
+2022-02-10 14:17:50,233:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 14:17:50,233:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 14:17:50,233:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 14:17:50,233:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 14:17:50,233:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 14:17:50,233:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 14:17:50,233:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 14:17:50,233:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 14:17:50,234:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 14:17:50,234:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 14:17:50,234:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 14:17:50,234:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
+2022-02-10 14:17:50,234:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:17:50,234:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:17:50,234:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 14:17:50,234:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 14:17:50,234:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 14:17:50,234:DEBUG:98:EUC-JP not active
+2022-02-10 14:17:50,234:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 14:17:50,234:DEBUG:98:EUC-KR not active
+2022-02-10 14:17:50,234:DEBUG:98:CP949 not active
+2022-02-10 14:17:50,234:DEBUG:98:Big5 not active
+2022-02-10 14:17:50,234:DEBUG:98:EUC-TW not active
+2022-02-10 15:18:02,569:DEBUG:61:EUC-JP Japanese prober hit error at byte 25134
+2022-02-10 15:18:02,678:DEBUG:65:EUC-KR Korean prober hit error at byte 25134
+2022-02-10 15:18:02,709:DEBUG:65:CP949 Korean prober hit error at byte 25134
+2022-02-10 15:18:02,737:DEBUG:65:Big5 Chinese prober hit error at byte 25135
+2022-02-10 15:18:02,762:DEBUG:65:EUC-TW Taiwan prober hit error at byte 25134
+2022-02-10 15:18:02,877:DEBUG:101:utf-8  confidence = 0.505
+2022-02-10 15:18:02,877:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 15:18:02,877:DEBUG:98:EUC-JP not active
+2022-02-10 15:18:02,877:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 15:18:02,877:DEBUG:98:EUC-KR not active
+2022-02-10 15:18:02,877:DEBUG:98:CP949 not active
+2022-02-10 15:18:02,877:DEBUG:98:Big5 not active
+2022-02-10 15:18:02,877:DEBUG:98:EUC-TW not active
+2022-02-10 15:18:02,877:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 15:18:02,877:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 15:18:02,877:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 15:18:02,877:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 15:18:02,877:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 15:18:02,877:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 15:18:02,878:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 15:18:02,878:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 15:18:02,878:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 15:18:02,878:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 15:18:02,878:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 15:18:02,878:DEBUG:101:ISO-8859-9 Turkish confidence = 0.11762003779556582
+2022-02-10 15:18:02,878:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 15:18:02,878:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 15:18:02,878:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 15:18:49,189:DEBUG:61:EUC-JP Japanese prober hit error at byte 24706
+2022-02-10 15:18:49,318:DEBUG:65:EUC-KR Korean prober hit error at byte 24706
+2022-02-10 15:18:49,347:DEBUG:65:CP949 Korean prober hit error at byte 24706
+2022-02-10 15:18:49,378:DEBUG:65:Big5 Chinese prober hit error at byte 24707
+2022-02-10 15:18:49,408:DEBUG:65:EUC-TW Taiwan prober hit error at byte 24706
+2022-02-10 15:18:49,541:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 15:18:49,542:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:98:EUC-JP not active
+2022-02-10 15:18:49,542:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:98:EUC-KR not active
+2022-02-10 15:18:49,542:DEBUG:98:CP949 not active
+2022-02-10 15:18:49,542:DEBUG:98:Big5 not active
+2022-02-10 15:18:49,542:DEBUG:98:EUC-TW not active
+2022-02-10 15:18:49,542:DEBUG:101:windows-1251 Russian confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:101:KOI8-R Russian confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:101:ISO-8859-5 Russian confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:101:MacCyrillic Russian confidence = 0.0
+2022-02-10 15:18:49,542:DEBUG:101:IBM866 Russian confidence = 0.0
+2022-02-10 15:18:49,542:DEBUG:101:IBM855 Russian confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:101:ISO-8859-7 Greek confidence = 0.0
+2022-02-10 15:18:49,542:DEBUG:101:windows-1253 Greek confidence = 0.0
+2022-02-10 15:18:49,542:DEBUG:101:ISO-8859-5 Bulgarian confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:101:windows-1251 Bulgarian confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:101:TIS-620 Thai confidence = 0.01
+2022-02-10 15:18:49,542:DEBUG:101:ISO-8859-9 Turkish confidence = 0.14382831719657502
+2022-02-10 15:18:49,542:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 15:18:49,543:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 15:18:49,543:DEBUG:101:windows-1255 Hebrew confidence = 0.0
+2022-02-10 15:18:49,543:DEBUG:101:utf-8  confidence = 0.87625
+2022-02-10 15:18:49,543:DEBUG:101:SHIFT_JIS Japanese confidence = 0.01
+2022-02-10 15:18:49,543:DEBUG:98:EUC-JP not active
+2022-02-10 15:18:49,543:DEBUG:101:GB2312 Chinese confidence = 0.01
+2022-02-10 15:18:49,543:DEBUG:98:EUC-KR not active
+2022-02-10 15:18:49,543:DEBUG:98:CP949 not active
+2022-02-10 15:18:49,543:DEBUG:98:Big5 not active
+2022-02-10 15:18:49,543:DEBUG:98:EUC-TW not active

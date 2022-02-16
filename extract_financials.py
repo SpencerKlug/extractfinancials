@@ -4,82 +4,82 @@ import logging
 
 # Dictionary containing the searchable values if using the xml/beautifulsoup form of extraction
 HUMAN_EXTRACTION_XFA = {
-    'YEAR':['to_date_cr','frm:curreportingdate','frcurreportingdatem:','frm:currfiyrtill','frm:currfiyrdateto','fy_end_date'],
-    'REVENUE':['total_revenue_cr','frm:curtotalrev'],
-    'MATERIAL_COST':['cost_material_cr','frm:curmaterialcost'],
-    'AMORTIZATION_AND_DEPRECIATION':['deprectn_amort_c','deprectn_amort_c','frm:curdepamortexpense','frm:curdeprecatn'],
-    'FINANCE_EXPENSE':['finance_cost_cr','frm:curfinancecost'],
-    'OTHER_EXPENSES':['other_expenses_c'],
-    'TOTAL_EXPENSES':['total_expenses_c','frm:curtotalexpenses'],
-    'PROFIT_BEFORE_TAX':['profit_bef_tax_c','frm:curprofitbfrtax'],
-    'CURRENT_TAX':['current_tax_cr','frm:curcurrenttax'],
-    'DEFERRED_TAX':['deferred_tax_cr','frm:curdeferredtax'],
-    'PROFIT_LOSS':['prof_loss_oper_c','frm:curprofitorlossfrmco','frm:curprofit_loss','prof_los_12_15_c'],
-    'RETAINED_EARNINGS':['reserve_surplus1','frm:currsrvandsurplus','frm:curreservsurplus'],
-    'SHARE_CAPITAL':['share_capital_cr','frm:cursharecptl','frm:curpaidupcaptl','frm:curshrarecptl'],
-    'LONG_TERM_BORROWINGS':['long_term_borr_c','frm:curlngtermborrow'],
-    'DEFERRED_TAX_LIABILITIES_NET':['deferred_tl_cr','frm:curdefrdtaxliabilities','frm:curdeftaxliab'],
-    'OTHER_LONG_TERM_LIABILITIES':['other_lng_trm_cr','frm:curothrlngtrmborrow'],
-    'LONG_TERM_PROVISIONS':['long_term_prov_c','frm:curlngtermprovisions'],
-    'SHORT_TERM_DEBT':['short_term_bor_c','frm:curshorttermborrow'],
-    'ACCOUNTS_PAYABLE':['trade_payables_c','frm:curtradepayables'],
-    'OTHER_CURRENT_LIABILITIES':['other_curr_lia_c','frm:curothrcrntliabilities'],
-    'SHORT_TERM_PROVISIONS':['short_term_pro_c','frm:curshorttermprovisions'],
-    'TANGIBLE_ASSETS':['tangible_asset_c','frm:curtangibleassets'],
-    'INTANGIBLE_ASSETS':['intangible_ast_c','frm:curintangibleassets'],
-    'CAPITAL_WORK_IN_PROGRESS':['capital_wip_cr','frm:curcapitalwip'],
-    'INTANGIBLE_ASSETS_UNDER_DEVELOPMENT':['intangible_aud_c','frm:curintangibleasstsindev'],
-    'NON_CURRENT_INVESTMENTS':['non_curr_inv_cr','frm:curnoncrntinvstmnt'],
-    'DEFERRED_TAX_ASSETS_NET':['deferred_ta_cr','frm:curdeftaxassetsnet'],
-    'LONG_TERM_LOANS_ADVANCES':['lt_loans_adv_cr','frm:curlongtermloans'],
-    'OTHER_NON_CURRENT_ASSETS':['other_non_ca_cr','frm:curothrnoncrntassets'],
-    'CURRENT_INVESTMENTS':['current_inv_cr','frm:curinvestment'],
-    'INVENTORIES':['inventories_cr','frm:curinventories','frm:curinventries'],
-    'ACCOUNTS_RECEIVABLES':['trade_receiv_cr','frm:curtradereceivables','frm:cursundrydebtrs'],
-    'CASH':['cash_and_equ_cr','frm:curcastandeqvlnts','frm:curcshbnkbalnce'],
+    'periodEndDate':['to_date_cr','frm:curreportingdate','frcurreportingdatem:','frm:currfiyrtill','frm:currfiyrdateto','fy_end_date'],
+    'totalRevenue':['total_revenue_cr','frm:curtotalrev'],
+    'costOfRevenue':['cost_material_cr','frm:curmaterialcost'],
+    'depreciationAmortizationExpense':['deprectn_amort_c','deprectn_amort_c','frm:curdepamortexpense','frm:curdeprecatn'],
+    'interestExpense':['finance_cost_cr','frm:curfinancecost'],
+    'otherOperatingExpenses':['other_expenses_c'],
+    'totalOperatingExpenses':['total_expenses_c','frm:curtotalexpenses'],
+    'incomeBeforeTaxes':['profit_bef_tax_c','frm:curprofitbfrtax'],
+    #'incomeTaxes':['current_tax_cr','frm:curcurrenttax'], #Created a tax calculation since this isn't always avaiable 
+    #'DEFERRED_TAX':['deferred_tax_cr','frm:curdeferredtax'], #Need to create a tax function
+    'netIncome':['prof_loss_oper_c','frm:curprofitorlossfrmco','frm:curprofit_loss','prof_los_12_15_c'], #Net Income and Income After Tax
+    'retainedEarnings':['reserve_surplus1','frm:currsrvandsurplus','frm:curreservsurplus'],
+    'commonStock':['share_capital_cr','frm:cursharecptl','frm:curpaidupcaptl','frm:curshrarecptl'],
+    'longTermDebt':['long_term_borr_c','frm:curlngtermborrow'],
+    #'DEFERRED_TAX_LIABILITIES_NET':['deferred_tl_cr','frm:curdefrdtaxliabilities','frm:curdeftaxliab'], #DELETE
+    'otherLiabilities':['other_lng_trm_cr','frm:curothrlngtrmborrow'],
+    #'LONG_TERM_PROVISIONS':['long_term_prov_c','frm:curlngtermprovisions'], #DELETE
+    'shortTermBorrowings':['short_term_bor_c','frm:curshorttermborrow'],
+    'accountsPayable':['trade_payables_c','frm:curtradepayables'],
+    'otherCurrentLiabilities':['other_curr_lia_c','frm:curothrcrntliabilities'],
+    #'SHORT_TERM_PROVISIONS':['short_term_pro_c','frm:curshorttermprovisions'], #DELETE
+    'propertyPlantEquipmentNet':['tangible_asset_c','frm:curtangibleassets'],
+    'intangibleAssets':['intangible_ast_c','frm:curintangibleassets'],
+    #'CAPITAL_WORK_IN_PROGRESS':['capital_wip_cr','frm:curcapitalwip'],
+    #'INTANGIBLE_ASSETS_UNDER_DEVELOPMENT':['intangible_aud_c','frm:curintangibleasstsindev'],#DELETE
+    'longTermInvestments':['non_curr_inv_cr','frm:curnoncrntinvstmnt'],
+    'deferredIncomeTaxesCurrent':['deferred_ta_cr','frm:curdeftaxassetsnet'],
+    #'LONG_TERM_LOANS_ADVANCES':['lt_loans_adv_cr','frm:curlongtermloans'],
+    'otherCurrentAssets':['other_non_ca_cr','frm:curothrnoncrntassets'],
+    'shortTermInvestments':['current_inv_cr','frm:curinvestment'],
+    'inventoriesNet':['inventories_cr','frm:curinventories','frm:curinventries'],
+    'totalReceivablesNet':['trade_receiv_cr','frm:curtradereceivables','frm:cursundrydebtrs'],
+    'cashAndCashEquivalents':['cash_and_equ_cr','frm:curcastandeqvlnts','frm:curcshbnkbalnce'],
     'LOANS_AND_ADVANCES':['short_trm_loa_cr','frm:curshrttermloans'],
-    'OTHER_CURRENT_ASSETS':['other_curr_ca_cr','frm:curothrcrntassets','frm:curothrassts'],
-    'TOTAL_ASSETS':['total_curr_rep','frm:curassetstotal']
+    'otherCurrentAssets':['other_curr_ca_cr','frm:curothrcrntassets','frm:curothrassts'],
+    'totalAssets':['total_curr_rep','frm:curassetstotal']
               }
 
 # Dictionary containing the searchable values if using the method .getFormTextFields()
 HUMAN_GET_FORM_TEXT_FIELDS_DICTIONARY = {
-    'YEAR':['EndCurrDate_D[0]','DateOfFinancialYrTo_D[0]','BalanceShtFromDate[0]','ToDate[0]','HiddenBalsheetDate_D[0]','HiddenBalDate_D[0]'],
-    'REVENUE':['CurTotalRev[0]','TotalCurrIncom_N[0]'],
-    'MATERIAL_COST':['CurMaterialCost[0]'],
-    'AMORTIZATION_AND_DEPRECIATION':['DepreAmorCurr_N[0]','DeprAmorCurr_N[0]','CurDepAmortExpense[0]'],
-    'FINANCE_EXPENSE':['InterestCurr_N[0]','CurFinanceCost[0]'],
-    'OTHER_EXPENSES':['CurOthrExpenses[0]','CurTotalExpenses[0]'],
-    'TOTAL_EXPENSES':['TotalExpCurr_N[0]'],
-    'PROFIT_BEFORE_TAX':['TotalCurrIncome_N[0]','CurProfitBfrTax[0]'],
-    'CURRENT_TAX':['IncomeTDefTCurr_N[0]'],
-    'DEFERRED_TAX':[],
-    'PROFIT_LOSS':['CurProfit_Loss[0]'],
-    'RETAINED_EARNINGS':['ReservesSurpCur_N[0]','CurRsrvAndSurplus[0]','ResSur[0]'],
-    'SHARE_CAPITAL':['ShareCap[0]','TotPaidCap[0]','Total1Curr_N[0]'],
-    'LONG_TERM_BORROWINGS':['LongTerm[0]','CurLngTermBorrow[0]'],
-    'DEFERRED_TAX_LIABILITIES_NET':['DefLiabl[0]','CurDefrdTaxLiabilities[0]'],
-    'OTHER_LONG_TERM_LIABILITIES':['LongLiabl[0]','CurOthrLngTrmBorrow[0]'],
-    'LONG_TERM_PROVISIONS':['CurLngTermProvisions[0]','LongProv[0]'],
-    'SHORT_TERM_DEBT':['ShortBorrow[0]','CurShortTermBorrow[0]'],
-    'ACCOUNTS_PAYABLE':['CurTradePayables[0]','Trade[0]'],
-    'OTHER_CURRENT_LIABILITIES':['CurrentLiabl[0]','CurOthrCrntLiabilities[0]'], 
-    'SHORT_TERM_PROVISIONS':['ShortProv[0]','CurShortTermProvisions[0]'],
-    'TANGIBLE_ASSETS':['TangAsset[0]','CurTangibleAssets[0]'],
-    'INTANGIBLE_ASSETS':['IntangAsset[0]','CurIntangibleAssets[0]'],
-    'CAPITAL_WORK_IN_PROGRESS':['CapWIPCurr_N[0]','CapWork[0]','CurCapitalWIP[0]'],
-    'INTANGIBLE_ASSETS_UNDER_DEVELOPMENT':[],
-    'NON_CURRENT_INVESTMENTS':['NonCurrent[0]','CurNonCrntInvstmnt[0]','InvestmentCurr_N[0]'],
-    'DEFERRED_TAX_ASSETS_NET':['DeffTaxAsstCurr_N[0]','DefTax[0]','CurDefTaxAssetsNet[0]'],
-    'LONG_TERM_LOANS_ADVANCES':['LoansAdvCurr_N[0]','LongLoan[0]','CurLongTermLoans[0]'],
-    'OTHER_NON_CURRENT_ASSETS':['CurOthrNonCrntAssets[0]','OtherAsset[0]','OthersCurr_N[0]'],
-    'CURRENT_INVESTMENTS':[],
-    'INVENTORIES':['CurInventories[0]','Inventory[0]','InventoriesCurr_N[0]'],
-    'ACCOUNTS_RECEIVABLES':['ShortLoan[0]','CurTradeReceivables[0]'],
-    'CASH':['CashBankBalCurr_N[0]','CurCastAndEqvlnts[0]','Cash[0]'],
-    'LOANS_AND_ADVANCES':['ShortLoan[0]','CurShrtTermLoans[0]'],
-    'OTHER_CURRENT_ASSETS':['OtherAsset[0]','CurOthrCrntAssets[0]'],
-    'TOTAL_ASSETS':['CurAssetsTotal[0]','TotalCurr_N[0]']}
+    'periodEndDate':['EndCurrDate_D[0]','DateOfFinancialYrTo_D[0]','BalanceShtFromDate[0]','ToDate[0]','HiddenBalsheetDate_D[0]','HiddenBalDate_D[0]'],
+    'totalRevenue':['CurTotalRev[0]','TotalCurrIncom_N[0]'],
+    'costOfRevenue':['CurMaterialCost[0]'],
+    'depreciationAmortizationExpense':['DepreAmorCurr_N[0]','DeprAmorCurr_N[0]','CurDepAmortExpense[0]'],
+    'interestExpense':['InterestCurr_N[0]','CurFinanceCost[0]'],
+    'otherOperatingExpenses':['CurOthrExpenses[0]','CurTotalExpenses[0]'],
+    'totalOperatingExpenses':['TotalExpCurr_N[0]'],
+    'incomeBeforeTaxes':['TotalCurrIncome_N[0]','CurProfitBfrTax[0]'],
+    #'incomeTaxes':['IncomeTDefTCurr_N[0]'], #Need to create a tax function
+    #'DEFERRED_TAX':[], #Need to create a tax function
+    'netIncome':['CurProfit_Loss[0]'], #Net Income and Income After Tax
+    'retainedEarnings':['ReservesSurpCur_N[0]','CurRsrvAndSurplus[0]','ResSur[0]'],
+    'commonStock':['ShareCap[0]','TotPaidCap[0]','Total1Curr_N[0]'],
+    'longTermDebt':['LongTerm[0]','CurLngTermBorrow[0]'],
+    #'DEFERRED_TAX_LIABILITIES_NET':['DefLiabl[0]','CurDefrdTaxLiabilities[0]'], #DELETE
+    'otherLiabilities':['LongLiabl[0]','CurOthrLngTrmBorrow[0]'],
+    #'LONG_TERM_PROVISIONS':['CurLngTermProvisions[0]','LongProv[0]'], #DELETE
+    'shortTermBorrowings':['ShortBorrow[0]','CurShortTermBorrow[0]'],
+    'accountsPayable':['CurTradePayables[0]','Trade[0]'],
+    'otherCurrentLiabilities':['CurrentLiabl[0]','CurOthrCrntLiabilities[0]'], 
+    #'SHORT_TERM_PROVISIONS':['ShortProv[0]','CurShortTermProvisions[0]'], #DELETE
+    'propertyPlantEquipmentNet':['TangAsset[0]','CurTangibleAssets[0]'],
+    'intangibleAssets':['IntangAsset[0]','CurIntangibleAssets[0]'],
+    #'CAPITAL_WORK_IN_PROGRESS':['CapWIPCurr_N[0]','CapWork[0]','CurCapitalWIP[0]'],
+    'INTANGIBLE_ASSETS_UNDER_DEVELOPMENT':[], #DELETE
+    'longTermInvestments':['NonCurrent[0]','CurNonCrntInvstmnt[0]','InvestmentCurr_N[0]'],
+    'deferredIncomeTaxesCurrent':['DeffTaxAsstCurr_N[0]','DefTax[0]','CurDefTaxAssetsNet[0]'],
+    #'LONG_TERM_LOANS_ADVANCES':['LoansAdvCurr_N[0]','LongLoan[0]','CurLongTermLoans[0]'], #DELETE
+    'otherCurrentAssets':['CurOthrNonCrntAssets[0]','OtherAsset[0]','OthersCurr_N[0]'],
+    'shortTermInvestments':[],
+    'inventoriesNet':['CurInventories[0]','Inventory[0]','InventoriesCurr_N[0]'],
+    'totalReceivablesNet':['ShortLoan[0]','CurTradeReceivables[0]'],
+    'cashAndCashEquivalents':['CashBankBalCurr_N[0]','CurCastAndEqvlnts[0]','Cash[0]'],
+    #'LOANS_AND_ADVANCES':['ShortLoan[0]','CurShrtTermLoans[0]'],
+    'otherCurrentAssets':['OtherAsset[0]','CurOthrCrntAssets[0]'],
+    'totalAssets':['CurAssetsTotal[0]','TotalCurr_N[0]']}
 
 #Blank dictionaries one for XFA and one for Forms
 XFA_ = {}
@@ -172,6 +172,23 @@ class DataExtration(FinancialYear):
                 financial_year[GET_FORM_TEXT_FIELDS_DICTIONARY[key]] = value
         return financial_year
 
+# Calculating 
+class CalculatedFields:
+
+    def income_taxes(financial_dictionary):
+        if (financial_dictionary.keys() >= {'netIncome','incomeBeforeTaxes'}) == True:
+            financial_dictionary['incomeTaxes'] = (financial_dictionary['incomeBeforeTaxes'] - financial_dictionary['netIncome'])
+            return financial_dictionary
+        else:
+            return financial_dictionary
+
+    def profit_after_tax(financial_dictionary):
+        if ('netIncome') in financial_dictionary.keys():
+            financial_dictionary['incomeAfterTaxes'] = financial_dictionary['netIncome']
+            return financial_dictionary
+        else:
+            return financial_dictionary
+
 # Updates a variable data type   
 class DataType: 
     #Turn all financial figures into int data type 
@@ -180,6 +197,7 @@ class DataType:
         int_ = str(non_year)
         int_ = int(float(int_.replace(',','')))
         value = int(float(int_))
+        value = (value/1000)
         return value
     
     #Turn date into datetime
@@ -196,13 +214,10 @@ class DataType:
                 value = datetime.strptime(dictionary_year, '%m/%d/%Y')
             elif sp[0] == sp[1]:
                 value = datetime.strptime(dictionary_year, '%m/%d/%Y')
-            else:
-                logging.debug("Year Exception occurred",exc_info=True)
-        else:
-            logging.debug("Exception occurred",exc_info=True)
         return value
 
-# Updates an entire dictionary values into the correct data type using methods from the DataType class
+# Updates an entire dictionary values into the correct data type using methods from the DataType class 
+# update_data only returns non-0 values since we do not want 0's showing in the platform
 class DataTypeUpdate:
     
     def update_data(financial_dictionary):
@@ -211,11 +226,13 @@ class DataTypeUpdate:
             return updated_financial_dictionary
         updated_financial_dictionary = {}   
         for item in financial_dictionary.items():
-            if item[0] == 'YEAR':
+            if item[0] == 'periodEndDate':
                 dict_value = DataType.year(item[1])
+                updated_financial_dictionary[item[0]] = dict_value
             else:
                 dict_value = DataType.non_year(item[1])
-            updated_financial_dictionary[item[0]] = dict_value
+                if dict_value != 0:
+                    updated_financial_dictionary[item[0]] = dict_value
         return updated_financial_dictionary
     
     def results_update(financials_year_xml,financials_year_form):
